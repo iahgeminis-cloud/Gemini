@@ -82,4 +82,154 @@
             background-color: var(--input-bg);
             color: var(--text-main);
             font-size:https://github.com/twitter/.github/<a9290e5f3e415e9e502786c140ac1e356b85eca1><Google I∆H>firebase.playlinks.update
+Claro 😃 Aquí tienes una **plantilla única y reutilizable** para tus proyectos, en tres formatos: **README**, **“Acerca de”**, y **JSON/YAML**.
 
+---
+
+## 1) Plantilla corta para README / ficha visible
+
+```text
+Nombre: iOGeminis
+ID: mx.iogeminis.app
+Versión: 1.0.0
+Región: MX
+Moneda: MXN
+
+Licencia: Apache 2.0
+Copyright: 2026 iOGeminis
+
+Dependencias OSS:
+- Apache Software Foundation — Apache 2.0
+- jsoup — MIT
+
+Dominios:
+- .mx — Registro $450.00 / Renovación $450.00
+- .com.mx — Registro $250.00 / Renovación $310.00
+- .io — Registro $580.00 / Renovación $1,050.00
+
+Enlaces:
+- GitHub: https://github.com/iahgeminis-cloud/Gemini
+- Play Store: https://play.google.com/store/apps/dev?id=5700313618786177705
+```
+
+---
+
+## 2) Plantilla para pantalla “Acerca de”
+
+```text
+iOGeminis
+Versión 1.0.0
+
+Copyright 2026 iOGeminis
+Licencia del proyecto: Apache License 2.0
+
+Este producto incluye software de terceros:
+- Apache Software Foundation
+- jsoup HTML parser (MIT)
+
+Región: MX
+Moneda: MXN
+
+Dominios:
+- .mx: $450.00 registro / $450.00 renovación
+- .com.mx: $250.00 registro / $310.00 renovación
+- .io: $580.00 registro / $1,050.00 renovación
+
+Sitio / soporte / licencias disponibles en la documentación del proyecto.
+```
+
+---
+
+## 3) Plantilla JSON compacta
+
+```json
+{
+  "project": "iOGeminis",
+  "appId": "mx.iogeminis.app",
+  "version": "1.0.0",
+  "region": "MX",
+  "currency": "MXN",
+  "license": {
+    "name": "Apache-2.0",
+    "copyright": "2026 iOGeminis"
+  },
+  "ossDependencies": [
+    {
+      "name": "Apache Software Foundation",
+      "license": "Apache-2.0",
+      "url": "https://www.apache.org/"
+    },
+    {
+      "name": "jsoup",
+      "license": "MIT",
+      "copyright": "2009-2024 Jonathan Hedley",
+      "url": "https://jsoup.org/"
+    }
+  ],
+  "domains": [
+    {
+      "tld": ".mx",
+      "category": "Nacional",
+      "registration": 450.0,
+      "renewal": 450.0
+    },
+    {
+      "tld": ".com.mx",
+      "category": "Comercial Local",
+      "registration": 250.0,
+      "renewal": 310.0
+    },
+    {
+      "tld": ".io",
+      "category": "Tecnología / Startups",
+      "registration": 580.0,
+      "renewal": 1050.0
+    }
+  ],
+  "links": {
+    "github": "https://github.com/iahgeminis-cloud/Gemini",
+    "playStoreDev": "https://play.google.com/store/apps/dev?id=5700313618786177705"
+  }
+}
+```
+
+---
+
+## 4) Plantilla YAML
+
+```yaml
+project: iOGeminis
+appId: mx.iogeminis.app
+version: 1.0.0
+region: MX
+currency: MXN
+
+license:
+  name: Apache-2.0
+  copyright: "2026 iOGeminis"
+
+ossDependencies:
+  - name: Apache Software Foundation
+    license: Apache-2.0
+    url: https://www.apache.org/
+  - name: jsoup
+    license: MIT
+    copyright: "2009-2024 Jonathan Hedley"
+    url: https://jsoup.org/
+
+domains:
+  - tld: .mx
+    category: Nacional
+    registration: 450.00
+    renewal: 450.00
+  - tld: .com.mx
+    category: Comercial Local
+    registration: 250.00
+    renewal: 310.00
+  - tld: .io
+    category: Tecnología / Startups
+    registration: 580.00
+    renewal: 1050.00
+
+links:
+  github: https://github.com/iahgeminis-cloud/Gemini
